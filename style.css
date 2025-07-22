@@ -244,6 +244,7 @@ h1{
 }
 h2{
     font-size: 24px;
+    color: green;
 }
 h3{
     font-size: 20px;
@@ -311,7 +312,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background-color: black;
+    background-color: rgb(32, 155, 32);
     padding: 16px 64px;
     position:sticky;
     top:0;
