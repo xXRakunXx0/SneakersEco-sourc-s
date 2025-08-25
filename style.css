@@ -97,6 +97,9 @@
 .align-end{
     align-items: flex-end;
 }
+.text-align{
+  text-align: center;
+}
 
 .alternate>div:nth-child(2n){
     flex-direction: row-reverse;
@@ -312,7 +315,6 @@ header{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background-color: rgb(32, 155, 32);
     padding: 16px 64px;
     position:sticky;
     top:0;
@@ -322,9 +324,7 @@ header nav{
     display: flex;
     gap: 16px;
 }
-header nav a{
-    color: white;
-}
+
 
 /*--------------------------------------------------
 🦸Hero
